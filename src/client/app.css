@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.weatherCard {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 2px 2px 2px #aaa;
+  width: 300px;
+  margin: 40px auto;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.position {
+  height: 100px; 
+  width: 300px;
+  position: relative;
+}
+
+.v-sroll {
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-vertical; 
+}
+
+.m-40-auto {
+  margin: 40px auto;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.fColumn {
+  flex-direction: column;
+}
+
+.justifyContentBetween {
+  justify-content: space-between;
+}
+
+.measuredButton {
+  background: white;
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.blueBorder {
+  border: 1px #CAD6FF solid;
+  box-shadow: 2px 2px 2px #CAD6FF;
+}
+
+.redBorder {
+  border: 1px #FF808D solid;
+  box-shadow: 2px 2px 2px #FF808D;
+}
+
+.cityButton {
+  background: none;
+  border: 1px solid black;
+}
+
+button:hover {
+  background: #FDF977;
+}
