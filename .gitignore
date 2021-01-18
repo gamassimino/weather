@@ -1,0 +1,13 @@
+.vscode
+node_modules
+dist
+*.log
+yarn.lock
+database.sqlite
+
+# Build
+public/css/main.css
+
+# OS metadata
+.DS_Store
+Thumbs.db
